@@ -10,3 +10,9 @@ a {
 h1 {
   color: 15px;
 }
+
+.book-summary{
+  border: 1px solid #656;
+  margin: 1rem auto;
+  padding: 10px;
+}

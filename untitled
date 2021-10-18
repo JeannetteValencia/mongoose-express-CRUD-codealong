@@ -1,0 +1,9 @@
+display a list with all the books
+.then 
+res.render()
+
+create route / render the view
+  const index = require("./routes/index");
+  app.use("/", index);
+make a request to the DB --> Book find
+create a view and pass the data from the DB
