@@ -3,6 +3,7 @@
 {{#each booksArr}}
   <div class="book-summary">
     <p> Title: {{this.title}}</p>
-    <p> Author: {{this.author} </p>
+    <p> Author: {{this.author}} </p>
+    <a href="/books/{{this._id}}"> More Details </a> //the id
   </div>
 {{/each}}

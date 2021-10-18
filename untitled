@@ -1,9 +1,23 @@
 display a list with all the books
-.then 
-res.render()
 
 create route / render the view
   const index = require("./routes/index");
   app.use("/", index);
 make a request to the DB --> Book find
 create a view and pass the data from the DB
+
+Book details page
+[ ] update 'books-list.hbs' (add link to each book)
+[ ] create a route (GET '/books/:bookid'
+[ ] Make a request to the DB to get the details of book with id
+[ ] create a view book-details
+
+Step 4: (CREATE) functionality to create new books
+4.1 Display a form to create new books
+[ ]Add link in the homepage
+[ ] create a route (GET/books/create)
+[ ]create a view ('book-create.hbs')
+
+4.2 Receive the informatin from the form and save in DB
+[ ] Create a route (POST '/books/process-form)
+[ ] Make a request to the DB to save the new book
