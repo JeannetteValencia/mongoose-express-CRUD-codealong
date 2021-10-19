@@ -4,6 +4,10 @@
   <div class="book-summary">
     <p> Title: {{this.title}}</p>
     <p> Author: {{this.author}} </p>
-    <a href="/books/{{this._id}}"> More Details </a> //the id
+    <a href="/books/{{this._id}}"> More Details </a>
+
+    <form action="/books/{{this.id}}/delete" method="POST">
+       <a href="/books/{{this._id}}"> Delete </a>
+    </form>
   </div>
 {{/each}}
